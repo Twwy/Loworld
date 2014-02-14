@@ -1,0 +1,37 @@
+{
+  "name": "Loworld",
+  "version": "0.0.1",
+  "description": "the love world",
+  "main": "index.js",
+  "bin": {
+    "grid": "bin/grid"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twwy/Loworld.git"
+  },
+  "keywords": [
+    "game",
+    "love"
+  ],
+  "dependencies": {
+    "request": "*",
+    "minimist": "*",
+    "sqlite3": "*"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "author": "Twwy <zje2008@vip.163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twwy/Loworld/issues"
+  },
+  "homepage": "https://github.com/twwy/Loworld"
+}
