@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var Loworld = require('../');
+var Grid = Loworld.Grid;
+var argv = require('minimist')(process.argv.slice(2));
+var coor = argv._.slice(0, 2);
+
+// create a grid
+new Grid(coor[0], coor[1]);
